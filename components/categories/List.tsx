@@ -4,24 +4,31 @@ import axios from 'axios';
 import Link from 'next/link';
 import styled from 'styled-components';
 
+interface DataType {
+  id: number;
+  name: string;
+  conCategory1Id: number;
+  imageUrl: string;
+}
 const List: FC = () => {
-  const [data, setData] = useState('');
+  const [data, setData] = useState<any>('');
   const router = useRouter();
 
   useEffect(() => {
     const getApi = () => {
       axios.get(`https://api2.ncnc.app/con-category1s/${router.query.id}/nested`).then((res) => {
-        setData(res.data.conCategory1);
+        setData(res.data.conCategory1.conCategory2s);
       });
     };
     getApi();
   }, []);
 
+  console.log(data);
   if (data) {
     return (
       <>
         <Container>
-          {data?.conCategory2s.map((item: any) => (
+          {data?.map((item: any) => (
             <BrandButton key={item.id}>
               <Link
                 href={{ pathname: '/brands/[id]', query: { name: item.name, data: JSON.stringify(item.conItems) } }}

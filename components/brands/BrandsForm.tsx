@@ -17,7 +17,7 @@ import moneyAddComma from '../utils/moneyAddComma';
 const BrandsForm: React.FC = () => {
   const router = useRouter();
   console.log('---', router.query.data);
-  const items:  = JSON.parse(router.query.data) as string;
+  const items = JSON.parse(router.query.data) as string;
 
   const CalculateDiscountRate = (original: number, minSelling: number): string => {
     return (((original - minSelling) * 100) / original).toFixed(1);
