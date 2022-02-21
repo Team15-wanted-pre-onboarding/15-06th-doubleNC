@@ -3,8 +3,6 @@
 - 주제 : 3주차 니콘내콘 프로젝트
 - 기간 : 22.02.14 ~ 22.02.16
 
----
-
 ## 2. 🛠️ 기술 스택
 
 <p align="center">
@@ -15,14 +13,11 @@
 <img alt="styled" src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" />  
 </p>
 
----
-
 ## 3. 👋🏻 팀원 소개
 
 |조은총|전수현|최병현|조용우|
 |----|---|---|---|
 |<img width="200px" src='https://avatars.githubusercontent.com/u/66837741?v=4'/>|<img width="200px" src="https://avatars.githubusercontent.com/u/89771577?v=4"/>|<img width="200px" src="https://avatars.githubusercontent.com/u/65222200?v=4"/>|<img width="200px" src='https://avatars.githubusercontent.com/u/89348550?v=4'>|
----
 
 ## 4. 📄 기능 목록 명세
 
@@ -62,8 +57,6 @@
 - 구매, 판매 API를 이용한 질문(question) 내용 호출
 - 질문 내용 클릭 시 ID값을 이용해 답변(answer) 내용 호출
 
----
-
 ## 5. 💿 설치 및 실행 방법
 
 Project Clone
@@ -77,8 +70,6 @@ Project Setup
 Project Start For Development
 
 `$ npm run dev`
-
----
 
 ## 6. 🌲 프로젝트 구조
 
