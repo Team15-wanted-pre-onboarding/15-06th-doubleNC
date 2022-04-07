@@ -26,6 +26,7 @@
 ### 1) **홈/카테고리/브랜드(조은총, 전수현)**
 
 [홈] 
+
  ![캐러셀,홈카테고리](https://user-images.githubusercontent.com/89348550/154171582-a546cef6-6891-4648-995d-6487a59592e9.gif)
  ![땡처리](https://user-images.githubusercontent.com/89348550/154171607-4bfabe55-4086-483d-adfe-1b380ff46920.gif)
 
